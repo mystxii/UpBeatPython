@@ -39,6 +39,13 @@ class stats:
             else:
                 f = t
             return f 
+        def deezerId():
+            at = requests.get('https://upbeatradio.net/api/v1/stats')
+            ar = at.json()
+            r = requests.get(f'https://api.deezer.com/search?q=artist:"{ar["song"]["artist"])}" track:""{ar["song"]["title"])}')
+            er = r.json()
+            f = str(er["data"][0]["id"])
+            return f
         def likes():
             r = requests.get("https://upbeatradio.net/api/v1/stats")
             j = r.json()
