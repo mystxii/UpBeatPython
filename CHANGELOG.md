@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://media.discordapp.net/attachments/810107756421709827/810114469295685642/download.png" width="128px" style="max-width: 100%;">
   <h1>UpBeat Python</h1>
-  <a href="https://ubpy.danieldot.xyz/discord/"><img src="https://discord.com/api/guilds/810107755943297024/widget.png?style=shield"></a><img src="https://img.shields.io/badge/Version-V1.0-blue">
+  <a href="https://ubpy.danieldot.xyz/discord/"><img src="https://discord.com/api/guilds/810107755943297024/widget.png?style=shield"></a> <img src="https://img.shields.io/badge/Version-V1.0-blue">
   <br>
   <b>Changelog</b>
   <br>
