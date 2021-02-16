@@ -39,10 +39,10 @@ class stats:
             else:
                 f = t
             return f 
-        def deezerId():
+        def deezerid():
             at = requests.get('https://upbeatradio.net/api/v1/stats')
             ar = at.json()
-            r = requests.get(f'https://api.deezer.com/search?q=artist:"{ar["song"]["artist"])}" track:""{ar["song"]["title"])}')
+            r = requests.get(f'https://api.deezer.com/search?q=artist:"{ar["song"]["artist"]}" track:"{ar["song"]["title"]}"')
             er = r.json()
             f = str(er["data"][0]["id"])
             return f
@@ -315,4 +315,4 @@ class stats:
         t = str(j["listeners"])
         return t
 def version():
-    return "V1.0"
+    return "V1.0.1"
